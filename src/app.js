@@ -4,7 +4,7 @@ const hbs = require("hbs");
 const request = require("postman-request");
 const geocode = require('./utils/geocode');
 const forecast = require('./utils/forecast')
-const port = process.env.PORT || 3000;
+const port = process.env.PORT;
 
 const app = express();
 
